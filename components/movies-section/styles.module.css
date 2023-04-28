@@ -1,0 +1,38 @@
+.moviesSection {
+  margin-top: 36px;
+}
+
+.title {
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  font-size: 24px;
+  letter-spacing: -1px;
+}
+
+.movies {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 24px;
+}
+
+.movie {
+  overflow: hidden;
+  border-radius: 8px;
+  position: relative;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease;
+}
+
+/* .movie Link Image {
+  max-width: 20%;
+  height: auto;
+} */
+
+.movie:hover {
+  z-index: 9;
+  transform: scale(1.25);
+}
