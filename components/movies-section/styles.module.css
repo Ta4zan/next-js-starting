@@ -14,8 +14,6 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   gap: 24px;
 }
 
