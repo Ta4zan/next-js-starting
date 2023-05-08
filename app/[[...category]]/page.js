@@ -8,7 +8,7 @@ async function delay(ms) {
   }
 
 async function Home({ params }) {
-    await delay(20000)
+    await delay(3000)
     let selectedCategory;
 
     if ( params.category?.length > 0) {
